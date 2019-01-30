@@ -12,5 +12,8 @@ html {
 
 .about_me {
   margin: 0 auto;
-  align-content: center;
+}
+
+.skills {
+  background-color: grey
 }
