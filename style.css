@@ -4,6 +4,7 @@ html {
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 a {
@@ -36,10 +37,11 @@ a {
 }
 
 .company_header {
-  background-color: lightgray;
+  background-color: #eee;
+  padding: 4px;
 }
 
-.company_heading{
+.company_heading {
   text-align: center;
 }
 
@@ -58,7 +60,7 @@ a {
   color: black;
   display: inline-block;
   padding: 4px 10px;
-  background-color: lightgrey;
+  background-color: #eee;;
 }
 
 .skills a:hover {
