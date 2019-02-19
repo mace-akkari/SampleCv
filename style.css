@@ -1,14 +1,22 @@
 html {
   margin: 0;
 }
-
+body {
+  padding: 15px;
+  font-size: 14px;
+}
 * {
   box-sizing: border-box;
   text-decoration: none;
 }
 
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 a {
-  color: red;
+  color: #BB1E1E;
 }
 
 .container {
@@ -16,19 +24,22 @@ a {
 }
 
 .section-header {
-  color: red;
+  color: #BB1E1E;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
+  margin: 5px 0;
 }
 
 .about_me {
   display: grid;
   place-items: center;
+  text-align: center;
 }
 
 .about_me img{
   max-width: 150px;
   max-height: 150px;
+  margin-bottom: 5px;
 }
 
 .about_me div {
@@ -48,6 +59,11 @@ a {
 .company_heading p {
   margin: 1px;
   padding-top: 5px;
+  color: #777
+}
+
+.company_list {
+  line-height: 1.5;
 }
 
 .skills li {
@@ -64,6 +80,6 @@ a {
 }
 
 .skills a:hover {
-  background-color: red;
+  background-color: #a51a1a;
   color: white;
 }
